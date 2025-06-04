@@ -89,3 +89,130 @@ body{
   padding: 20px;
 
 }
+
+.container{
+    width: 80%;
+    max-width: 1200px;
+    align-items: center;
+    margin-top: 70px;
+    display: flex;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    position: relative;
+    left: 135px;
+}
+
+.character{
+    display: flex;
+    width: 750px;
+    gap: 13px;
+    background-color: #414550;
+    border-radius: 25px;
+}
+
+.character__image{
+    width: 500px;
+    overflow: hidden;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.character h1{
+    text-align: left;
+    font-weight: bold;
+    font-size: 32px;
+    color: #fff;
+}
+
+.character a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.character a:hover{
+    color: #f5c518;
+}   
+
+.Dead{
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.375rem;
+    background:rgb(214, 61, 46);;
+    border-radius: 50%;
+    position: relative;
+    top: 11px;
+}
+
+.Alive{
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.375rem;
+    background: rgb(85, 204, 68);
+    border-radius: 50%;
+    position: relative;
+    top: 11px;
+}
+
+
+.Unknown{
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.375rem;
+    background:gray;
+    border-radius: 50%;
+    position: relative;
+    top: 11px;
+}
+
+.character h2{
+    position: relative;
+    bottom: 25px;
+    left: 25px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;  
+}
+.character h3{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+    position: relative; 
+    bottom: 20px;
+}
+.character h4{
+    text-align: left;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+    bottom: 28px;
+}
+.character h5{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+    position: relative;
+    bottom: 18px;
+}
+
+.character p{
+    text-align: left;
+    font-size: 22px;
+    color: #fff;
+    position: relative; 
+    bottom: 25px;
+    font-weight: 500;
+}
+
+.character--info{
+    text-align: center;
+    margin: auto;
+    flex-direction: column;
+    font-size: 1.4rem;
+}
+
