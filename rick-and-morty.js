@@ -1,2 +1,2 @@
-for this proyect
-este archivo js será utilizado
+//for this proyect
+//este archivo js será utilizado
