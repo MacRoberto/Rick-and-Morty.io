@@ -91,37 +91,35 @@ body{
 }
 
 .container{
-    width: 80%;
-    max-width: 1200px;
+    width: 100%;
     align-items: center;
-    margin-top: 70px;
-    display: flex;
+    margin: 0 auto;
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-    position: relative;
-    left: 135px;
+    gap: 30px;
+    justify-content: center;
+    justify-items: center;
 }
 
 .character{
     display: flex;
-    width: 750px;
-    gap: 13px;
+    width: 650px;
+    gap: 15px;
     background-color: #414550;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
-.character__image{
-    width: 500px;
+.character img{
+    width: 450px;
     overflow: hidden;
-    border-bottom-left-radius: 25px;
-    border-top-left-radius: 25px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
 }
 .character h1{
     text-align: left;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 26px;
     color: #fff;
 }
 
@@ -167,45 +165,38 @@ body{
 }
 
 .character h2{
-    position: relative;
-    bottom: 25px;
-    left: 25px;
     text-align: left;
-    font-size: 22px;
-    font-weight: 300;
-    color: #fff;  
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
 }
 .character h3{
     text-align: left;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     color: gray;
-    position: relative; 
-    bottom: 20px;
 }
 .character h4{
     text-align: left;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
     color: #fff;
-    position: relative;
-    bottom: 28px;
+
 }
 .character h5{
     text-align: left;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     color: gray;
     position: relative;
-    bottom: 18px;
 }
 
 .character p{
     text-align: left;
-    font-size: 22px;
+    font-size: 20px;
     color: #fff;
     position: relative; 
-    bottom: 25px;
+    bottom: 5px;
     font-weight: 500;
 }
 
