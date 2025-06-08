@@ -8,7 +8,7 @@ fetch("https://rickandmortyapi.com/api/character/" + id)
     console.log(json)
     const container = document.querySelector(".container--character")
     const title = document.querySelector("#title")
-    const characterImage = document.querySelector("#character--image")
+    const characterImage = document.querySelector("#character--image-c")
     title.innerText = json.name
     characterImage.setAttribute("src", json.image)
             const card = `
