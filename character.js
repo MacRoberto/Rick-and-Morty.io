@@ -14,11 +14,12 @@ fetch("https://rickandmortyapi.com/api/character/" + id)
             const card = `
         <div class="character--info">
             <div class="character_content">
-            <h4>Genero: ${json.gender}</h4>
-            <h4>Status: ${json.status}</h4>
-            <h4>Ubicación: ${json.location.name}</h4>
-            <h4>Origen: ${json.origin.name}</h4>
+                <h4>Genero: ${json.gender}</h4>
+                <h4>Status: ${json.status}</h4>
+                <h4>Ubicación: ${json.location.name}</h4>
+                <h4>Origen: ${json.origin.name}</h4>
                 <h4>Especie: ${json.species}</h4>
+                <a href="index.html">Inicio</a>
             </div>
         </div>
         `
